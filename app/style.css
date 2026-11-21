@@ -1,7 +1,74 @@
-body { font-family: Arial, sans-serif; margin: 24px; color: #222; }
-header { display: flex; justify-content: space-between; align-items: baseline; }
-.controls { display: flex; gap: 16px; margin: 12px 0; align-items: center; }
-.import input { font-size: 12px; }
-table { border-collapse: collapse; width: 100%; }
-th, td { border-bottom: 1px solid #ddd; padding: 6px 8px; text-align: left; vertical-align: top; white-space: pre-line; }
-th { background: #f2f2f2; }
+/* GTA VI Trophy Guide — Team A dark "game wiki" look: dense table, neon gold on near-black. */
+:root {
+  --bg: #0d0f12; --panel: #15181d; --panel2: #1b1f26; --line: #2a2f38;
+  --text: #e8e6df; --muted: #9aa1ad; --gold: #ffc93c; --gold-dim: #c9a227;
+  --plat: #dfe8f2; --silver: #c0c8d4; --bronze: #d08a4e;
+  --green: #4ade80; --red: #f87171;
+}
+* { box-sizing: border-box; }
+body { font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif; margin: 0; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.45; }
+a { color: var(--gold); }
+.top { display: flex; gap: 24px; justify-content: space-between; padding: 22px 22px 14px; border-bottom: 3px solid var(--gold); background: linear-gradient(180deg, #171a1f, #0d0f12); }
+.kicker { color: var(--gold); letter-spacing: .14em; font-size: 11px; margin: 0 0 4px; font-weight: 700; }
+h1 { margin: 0; font-size: 34px; letter-spacing: .01em; }
+.sub { color: var(--muted); max-width: 760px; margin: 6px 0 0; }
+.score { min-width: 250px; text-align: right; }
+.score .big { font-size: 44px; font-weight: 800; line-height: 1; color: var(--gold); }
+.score .big .of { font-size: 22px; color: var(--muted); }
+.bar { height: 10px; background: #262b33; border-radius: 5px; margin: 8px 0 6px; overflow: hidden; }
+.bar div { height: 100%; background: linear-gradient(90deg, var(--gold-dim), var(--gold)); }
+#progressText { margin: 0; font-weight: 700; }
+.grades { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
+.alert { margin: 16px 22px 0; padding: 12px 16px; background: #2a1e05; border: 1px solid var(--gold); border-left: 6px solid var(--gold); border-radius: 6px; }
+.alert strong { color: var(--gold); }
+.alert p { margin: 4px 0 0; }
+.roadmap { margin: 16px 22px 0; padding: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+.roadmap h2 { margin: 0 0 6px; font-size: 21px; color: var(--gold); }
+.facts { margin: 0 0 10px; color: var(--muted); }
+.timeline { list-style: none; margin: 0; padding: 0 0 0 18px; border-left: 3px solid var(--gold); }
+.timeline li { margin: 0 0 14px; padding-left: 12px; position: relative; }
+.timeline li::before { content: ""; position: absolute; left: -25px; top: 4px; width: 11px; height: 11px; border-radius: 50%; background: var(--gold); }
+.timeline h3 { margin: 0 0 3px; font-size: 15px; }
+.timeline p { margin: 3px 0; color: #cfd3da; }
+.timeline .yields { color: var(--green); font-size: 13px; }
+.src { font-size: 12px; color: var(--muted); margin: 8px 0 0; overflow-wrap: anywhere; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 16px 22px 0; padding: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+.controls input[type="search"] { flex: 1 1 220px; padding: 8px 10px; background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+.controls select { padding: 7px; background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+.controls label { font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+.controls .check { color: var(--text); }
+button, .import { padding: 8px 12px; background: var(--gold); color: #111; border: none; border-radius: 6px; font-weight: 700; cursor: pointer; font-size: 13px; }
+button:hover, .import:hover { background: #ffd95e; }
+#import { display: none; }
+#reset { background: #2a2f38; color: var(--text); }
+.showing { margin: 10px 22px 0; color: var(--muted); font-size: 13px; }
+table { border-collapse: collapse; width: calc(100% - 44px); margin: 8px 22px 0; background: var(--panel); }
+th, td { border-bottom: 1px solid var(--line); padding: 7px 9px; text-align: left; vertical-align: top; }
+th { background: var(--panel2); color: var(--gold); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; position: sticky; top: 0; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: #1e232b; }
+tbody tr.earned { background: #14201a; }
+tbody tr.earned:hover { background: #182619; }
+td .tname { font-weight: 700; }
+td .tdesc { color: var(--muted); font-size: 12.5px; }
+td .guide-short { color: #cfd3da; font-size: 13px; }
+td .flags { margin-top: 3px; }
+.flag { display: inline-block; font-size: 10.5px; font-weight: 800; letter-spacing: .05em; padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
+.flag.miss { background: #7f1d1d; color: #fecaca; }
+.flag.hidden { background: #334155; color: #cbd5e1; }
+.flag.unconf { background: #713f12; color: #fde68a; }
+.grade { font-weight: 800; text-transform: capitalize; white-space: nowrap; }
+.grade.platinum { color: var(--plat); }
+.grade.gold { color: var(--gold); }
+.grade.silver { color: var(--silver); }
+.grade.bronze { color: var(--bronze); }
+.c-earned { width: 52px; text-align: center; }
+input[type="checkbox"].tick { width: 18px; height: 18px; accent-color: var(--gold); cursor: pointer; }
+.spoiled { color: var(--muted); font-style: italic; }
+.detail { margin: 14px 22px 0; padding: 16px; background: var(--panel2); border: 1px solid var(--gold-dim); border-radius: 8px; }
+.detail h2 { margin: 0 0 4px; font-size: 20px; }
+.detail h2 .grade { font-size: 14px; }
+.detail p { margin: 6px 0; }
+.detail .srcs { font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
+footer { margin: 18px 22px 22px; color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 12px; overflow-wrap: anywhere; }
+@media (max-width: 800px) { .top { flex-direction: column; } .score { text-align: left; } table { width: calc(100% - 24px); margin: 8px 12px 0; } .controls, .roadmap, .alert, .detail { margin-left: 12px; margin-right: 12px; } }

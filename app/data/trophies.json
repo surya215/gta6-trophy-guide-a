@@ -2,391 +2,623 @@
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
  "list": "the official 55 trophies, 2026-11-18",
+ "sources": [
+  {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"},
+  {"name": "GTA BOOM", "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f"}
+ ],
+ "roadmap": {
+  "difficulty": "4/10",
+  "hours": "~200",
+  "playthroughs": 1,
+  "onlineTrophies": 0,
+  "notes": "Free roam after the story. No mission replay. 15 manual save slots. Cheats disable trophies.",
+  "completion100": "100 optional tasks, 39 gang operations, 22 bank jobs, 7 payday loan jobs, 8 bank vaults, 15/18 card sets, 100 WAiNK scans, 33 underwater discoveries, 100/125 Cocaine Flamingos, 42/42 Shooting Range gold, 42/42 drone time trials, 300/397 stunts, 70/80 challenges, 15/15 Bret target decks, 200/277 vehicles, 100/255 animals"
+ },
  "trophies": [
   {
    "id": 1,
    "name": "Vice Got a Price!",
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
+   "category": "misc",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "The Platinum pops automatically once the other 54 trophies are earned — there is nothing extra to do for it. Work the roadmap in order: story first (with the one missable meditation in Chapter 1), then strangers and side content, then robberies and the long 100% counts. It is the last trophy you will earn."
   },
   {
    "id": 2,
    "name": "Just Like Paradise",
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Play through the opening mission, Gone Fishing, to its end. It doubles as the game's tutorial for driving and fishing, so just follow the on-screen prompts and the mission markers — no special requirement, and it cannot be missed."
   },
   {
    "id": 3,
    "name": "Paradise Lost",
    "description": "Complete Chapter 1.",
    "grade": "bronze",
-   "guide": "Finish Chapter 1."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Finish every story mission in Chapter 1. Before the chapter ends, do the balcony meditation for Positive Mental Attitude (see its guide) — that is the only missable step in the whole trophy list, and there is no mission replay to go back with."
   },
   {
    "id": 4,
    "name": "T**s Ass Drug Money",
    "description": "Complete Chapter 2.",
    "grade": "bronze",
-   "guide": "Finish Chapter 2."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Finish every story mission in Chapter 2. Story trophies unlock as the plot advances, so keep playing the gold mission markers in order; side content can wait until free roam."
   },
   {
    "id": 5,
    "name": "Vice City, Baby!",
    "description": "Complete Chapter 3.",
    "grade": "bronze",
-   "guide": "Finish Chapter 3."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Finish every story mission in Chapter 3. As with the other chapter trophies, it unlocks from story progress alone — no collectible, challenge or side mission is needed for it."
   },
   {
    "id": 6,
    "name": "Top Of The World, Ma",
    "description": "Complete Chapter 4.",
    "grade": "bronze",
-   "guide": "Finish Chapter 4."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Finish every story mission in Chapter 4. By this point the story is near its end; keep a manual save in a spare slot before the final stretch, since the game has no mission replay."
   },
   {
    "id": 7,
    "name": "You Gotta Know When to Get Off",
    "description": "Complete the final mission.",
    "grade": "gold",
-   "guide": "Finish the final mission (gold)."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Complete the final story mission. This is the Gold story trophy and the natural end of Stage 1 of the roadmap. After the credits, free roam opens and everything else — collectibles, robberies, the 100% grind — can be finished at your own pace."
   },
   {
    "id": 8,
    "name": "Trust",
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Complete the story mission Breakfast Run. It is a named story beat, so it unlocks by playing the main missions in order; check the mission list in the pause menu if you want to see which story missions remain."
   },
   {
    "id": 9,
    "name": "Break the Bank",
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Complete the story mission The Cartel Heist. A heist mission, so expect a setup-and-payoff structure: follow the mission objectives, and remember cheats disable trophies, so keep them off for the whole playthrough."
   },
   {
    "id": 10,
    "name": "Family Matters",
    "description": "Complete Child's Play.",
    "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Complete the story mission Child's Play. Like the other named-mission trophies, it comes from story progress only and cannot be missed while the story is still playable."
   },
   {
    "id": 11,
    "name": "DWNFALL",
    "description": "Complete Headliners.",
    "grade": "bronze",
-   "guide": "Finish the mission Headliners."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Complete the story mission Headliners. Play the main missions in order and it unlocks at the end of that mission — no extra objective is hidden inside it."
   },
   {
    "id": 12,
    "name": "Hi-Jacked",
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Complete the story mission VCIA Takedown, set around Vice City International Airport. Finish the mission's objectives and the trophy pops on completion."
   },
   {
    "id": 13,
    "name": "Snow Storm",
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
+   "category": "story",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Complete the story mission Operation Savage Glory. Another named story mission: follow the gold markers, finish the operation, and the trophy is yours."
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
+   "category": "misc",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Reach 100% completion as tracked in the pause-menu checklist: 100 optional tasks, 39 gang operations, 22 bank jobs, 7 payday loan jobs, 8 bank vaults, 15 of 18 card sets, 100 WAiNK scans, 33 underwater discoveries, 100 of 125 Cocaine Flamingos, 42/42 Shooting Range gold medals, 42/42 drone time trials, 300 of 397 stunts, 70 of 80 challenges, 15/15 Bret target decks, 200 of 277 vehicles and 100 of 255 animals. This is the long grind of Stage 3 and the last Gold before the Platinum — chip away at the counters in free roam after the story, using the checklist to see what is left."
   },
   {
    "id": 15,
    "name": "Cunning Stunts",
    "description": "Complete 250 Stunts.",
    "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Land 250 stunts — jumps, airtime, near-misses and similar driving feats, which the game counts as you pull them off in free roam. Find a good stunt jump and repeat it, or just drive aggressively between objectives; 300 of 397 stunts are needed for 100% anyway, so this Silver comes naturally on the way there."
   },
   {
    "id": 16,
    "name": "Master of None",
    "description": "Try each type of activity once.",
    "grade": "bronze",
-   "guide": "Try all 9 activity types once."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Try each of the 9 activity types once — fishing, racing, the shooting range, arcade games, bowling, drone races and the rest. You only need one attempt at each, not a win, so sample everything early: it is a quick Bronze and a good tour of what Leonida offers."
   },
   {
    "id": 17,
    "name": "The Shootist",
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Earn a gold medal in all 42 Shooting Range challenges. Each challenge has its own weapon and target pattern — learn the recoil and the timing, retry a challenge until the gold score lands, and work through the list one weapon at a time. All 42 golds also count toward 100%."
   },
   {
    "id": 18,
    "name": "Top Fun",
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Win a Top Fun drone race at each of the 14 locations. Learn each course's racing line, cut corners where the gates allow, and retry a location until the win lands — you need a win everywhere, not just once."
   },
   {
    "id": 19,
    "name": "Earn Cash, Not Kudos",
    "description": "Win 20 different races.",
    "grade": "bronze",
-   "guide": "Win 20 different races."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Win 20 different race events across Leonida. Each distinct race counts once, so spread out: try new race markers instead of replaying one you already won, and use the fastest vehicle class that fits each race."
   },
   {
    "id": 20,
    "name": "Baited My Tackle",
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Beat Cal in a fishing challenge. Take the challenge when it appears, practise casting and reeling first so the timing feels natural, then out-fish him in the head-to-head — it is a contest of catches, not of gear alone."
   },
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
-   "guide": "Finish one arcade game."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Finish one full arcade game run at an arcade machine. Pick a game you enjoy, learn its controls in a practice round if it offers one, and play it through to the end — a single completion is all it takes."
   },
   {
    "id": 22,
    "name": "Road to Rehabilitation",
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
-   "guide": "Finish Andy's last mission."
+   "category": "side",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Finish Andy's stranger mission strand, ending with his final mission. Stranger missions appear as icons on the map as you explore — take each of Andy's jobs in turn until the strand closes with this trophy."
   },
   {
    "id": 23,
    "name": "This Was No Boat Accident",
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
+   "category": "side",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Finish Kenton's stranger mission strand, ending with his final mission. Work through his jobs in order as they appear; the trophy pops when the last one is done."
   },
   {
    "id": 24,
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "Finish Billy's last mission."
+   "category": "side",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Finish Billy's stranger mission strand, ending with his final mission. Billy's jobs revolve around riding, so keep a good bike handy and follow each mission marker until the strand ends."
   },
   {
    "id": 25,
    "name": "Strangers & Freaks",
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
+   "category": "side",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Complete 8 full stranger mission strands across Leonida — Andy, Kenton, Billy, Randy, Tyrone, Bret and the other stranger contacts each count as one strand when their final mission is done. Explore the map for stranger icons and clear strands one by one; this Silver lands once the eighth strand closes."
   },
   {
    "id": 26,
    "name": "Supply & Demand",
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
-   "guide": "Finish Randy's last mission."
+   "category": "side",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Finish Randy's stranger mission strand, ending with his final mission. Take his jobs as they appear on the map and see the strand through to its last job."
   },
   {
    "id": 27,
    "name": "Spin On This!",
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
+   "category": "side",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Finish Tyrone's stranger mission strand, ending with his final mission. Clear his jobs in order until the strand's final mission is complete."
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
+   "category": "activity",
+   "hidden": false,
+   "missable": true,
+   "source": "KeenGamer",
+   "guide": "Meditate at all 18 meditation spots across Leonida. MISSABLE — read this first: one spot is on the balcony of Jason's house in Chapter 1, after the mission 'Down to Earth', when Lucia invites a morning meditation. Do that meditation before Chapter 1 ends; there is no mission replay, so missing it locks the trophy for this playthrough. The other 17 spots are found by exploring in free roam after the story — visit each one and meditate there until all 18 are done."
   },
   {
    "id": 29,
    "name": "Fair Game",
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
+   "category": "side",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Hunt a unique animal for Bret as part of his stranger strand. Follow Bret's hunt missions and the tracking clues they give, take the animal down cleanly, and the trophy pops — his full target list (15 decks) also feeds the 100% checklist."
   },
   {
    "id": 30,
    "name": "Don't Touch My Deck",
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
+   "category": "collectible",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Complete 3 collectible card sets by finding cards scattered across Leonida. Cards are tucked into shops, interiors and hidden corners — pick up every card you spot while exploring, and three finished sets earn this Silver. For 100% you will need 15 of 18 sets, so keep collecting past this trophy."
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
+   "category": "collectible",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Use WAiNK It at 100 locations — the in-game scanning feature that logs places and things you point it at. Scan as you travel: every new location you WAiNK counts, and 100 scans are also required for 100% completion, so make scanning a habit on every trip."
   },
   {
    "id": 32,
    "name": "One Last Thing",
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
-   "guide": "Finish 50 challenges."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Complete 50 challenges (of 80 in the game). Challenges are small feats scattered through activities and free roam — check the challenge list, pick the easiest ones first, and let the count build as you play. 70 of 80 are needed for 100%."
   },
   {
    "id": 33,
    "name": "Hot Together",
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
+   "category": "robbery",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "With your partner alongside, build up a 4-star wanted level, then lose the cops and escape. Cause chaos together until four stars show, then break line of sight, switch vehicles, and hide until the stars clear — escaping with your partner still with you is what counts."
   },
   {
    "id": 34,
    "name": "Retail Therapy",
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+   "category": "robbery",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "With your partner, rob 3 shops back-to-back without losing your wanted level between them. Plan a route with three close shops, hit each one quickly, and keep the heat on — if the wanted level drops to zero before the third robbery, the chain resets and you start again."
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "guide": "Discover 100 vehicles."
+   "category": "collectible",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Discover 100 vehicles by driving or entering new models — each new model you get into counts once. Try everything you see: traffic, parked cars, boats and bikes all add to the count, and 200 of 277 vehicles are needed for 100%."
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
+   "category": "combat",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Take down 5 enemies during a single activation of Combat Focus (the slow-mo aiming mode). Set it up in a busy firefight: gather enemies in view first, trigger Combat Focus, and chain five takedowns before it ends — a packed shootout is the easiest place to do it."
   },
   {
    "id": 37,
    "name": "Catch Me If You Can",
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
+   "category": "combat",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Make an unscheduled departure from Vice City International Airport — leave VCIA in a way no timetable planned, by taking an aircraft or vehicle out of the airport on your own terms. Head to the airport in free roam, grab a plane, and get airborne away from the runways."
   },
   {
    "id": 38,
    "name": "Challenging Tank",
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
+   "category": "combat",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Deal with Rhino tanks — the heavy military response that rolls in at high wanted levels. Survive the encounter and take the fight to the tanks (or outrun them) until the trophy registers; high wanted-level chaos in open ground is where Rhinos show up."
   },
   {
    "id": 39,
    "name": "Sneakthief",
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
+   "category": "robbery",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Rob a jewelry store without being detected. Scout the store first, move quietly, avoid guards and cameras, grab the goods and slip out before any alarm — if you are spotted, leave and try again."
   },
   {
    "id": 40,
    "name": "Maximum Withdrawal",
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
+   "category": "robbery",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Rob 5 bank vaults and escape after each one. Bank jobs are part of the robbery side content — crack the vault, take the cash, then lose the wanted level to bank the escape. All 8 vaults count toward 100%, so keep going after this Silver pops."
   },
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
+   "category": "robbery",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Rob an armored truck and escape. Intercept one on the road in free roam, stop it, crack it open, take the cash and then lose the wanted level — the escape is part of the trophy, so do not stop running until the stars are gone."
   },
   {
    "id": 42,
    "name": "The Goodtime State",
    "description": "Explore all of Leonida.",
    "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
+   "category": "collectible",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Explore all 52 areas of Leonida. Drive, fly or sail through every named region on the map until each one registers as visited — the map greys in as you go, so sweep the corners and islands you have not touched yet."
   },
   {
    "id": 43,
    "name": "Pest Control",
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
+   "category": "robbery",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Rob an illegal operation belonging to each of the 9 gangs — one per gang. Gang operations are marked as you find them; hit a different gang's operation each time until all nine are covered. There are 39 operations in total for 100%, so this is just the start."
   },
   {
    "id": 44,
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
+   "category": "side",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Method still unconfirmed — do not trust an invented step. The official description points to enjoying a cocktail with a view on Ocean Beach, but neither cited source has published a confirmed method yet. Check the KeenGamer and GTA BOOM guides linked below for the first confirmed steps as they are verified."
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
+   "category": "side",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Method still unconfirmed — do not trust an invented step. The official description suggests smashing your way out of a vehicle showroom, but neither cited source has published a confirmed method yet. Check the KeenGamer and GTA BOOM guides linked below for the first confirmed steps as they are verified."
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
+   "category": "activity",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Play through a game at the Kolt & Associates bowling alley — follow through on a full game, frame by frame, rather than quitting halfway. Bowling is one of the 9 activity types, so it also counts toward trying everything for Master of None."
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
+   "category": "misc",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Earn it through a standout moment with your partner — the description points to a partnership with mass appeal, a shared moment that draws attention. The exact trigger is still being pinned down by the cited guides; play the partner content in free roam and check the KeenGamer and GTA BOOM links below for the confirmed trigger."
   },
   {
    "id": 48,
    "name": "Actions Speak Louder",
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
+   "category": "misc",
+   "hidden": true,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Make choices across the game — the description tracks decisions made, for better or worse, and PlayStation counts them toward 500. Keep playing: story choices, side decisions and free-roam choices all feed the counter, and the trophy pops once the count is reached."
   },
   {
    "id": 49,
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "Succeed on a second try."
+   "category": "misc",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Method still unconfirmed — do not trust an invented step. The official description ('Second time's the charm') hints at succeeding on a second attempt at something, but neither cited source has published a confirmed method yet. Check the KeenGamer and GTA BOOM guides linked below for the first confirmed steps as they are verified."
   },
   {
    "id": 50,
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Witness something strange."
+   "category": "misc",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Method still unconfirmed — do not trust an invented step. The official description ('What the hell just happened?') hints at witnessing something strange in the world, but neither cited source has published a confirmed method yet. Check the KeenGamer and GTA BOOM guides linked below for the first confirmed steps as they are verified."
   },
   {
    "id": 51,
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
+   "category": "combat",
+   "hidden": true,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Method still unconfirmed — do not trust an invented step. The official description points to knocking someone over with a melee attack from a moving vehicle (a melee drive-by), but neither cited source has published a confirmed method yet. Check the KeenGamer and GTA BOOM guides linked below for the first confirmed steps as they are verified."
   },
   {
    "id": 52,
    "name": "Dime on the Dollar",
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
+   "category": "robbery",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Earn $250,000 by laundering Marked Bills through your contacts. Marked Bills come from robberies and heists; take them to a laundering contact, convert them in batches, and let the total build toward $250,000 — it is a slow earner, so launder regularly instead of saving it all for the end."
   },
   {
    "id": 53,
    "name": "Treat Yo Self",
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
+   "category": "misc",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Spend $100,000 across all shops — weapons, clothes, vehicles, food and other stores all count toward the total. Buy the gear you actually want as you play and the counter climbs on its own; late in the game, top it up with a vehicle or weapon purchase."
   },
   {
    "id": 54,
    "name": "Little Boxes",
    "description": "Purchase all garage properties.",
    "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
+   "category": "collectible",
+   "hidden": false,
+   "missable": false,
+   "source": "GTA BOOM",
+   "guide": "Purchase all 8 garage properties across Leonida. Garages are bought through the property system — save up, buy each one as you find it, and the trophy pops when the eighth garage is yours. Garages also give you somewhere to store the vehicles you discover."
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
+   "category": "collectible",
+   "hidden": false,
+   "missable": false,
+   "source": "KeenGamer",
+   "guide": "Register 10 vehicles to the Scooter Bros app. Open the app on the in-game phone, add vehicles you own or find, and repeat until ten are registered — it pairs naturally with discovering vehicles for Whip It Good."
   }
  ]
 }

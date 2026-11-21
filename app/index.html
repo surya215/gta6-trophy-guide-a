@@ -3,23 +3,101 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
+<title>GTA VI Trophy Guide — All 55 PS5 Trophies, Roadmap &amp; Tracker</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d0f12'/%3E%3Ctext x='16' y='22' font-size='16' font-weight='bold' text-anchor='middle' fill='%23ffc93c'%3EVI%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
+<header class="top">
+  <div>
+    <p class="kicker">GRAND THEFT AUTO VI &middot; PLAYSTATION 5 &middot; LEONIDA</p>
+    <h1>GTA VI Trophy Guide</h1>
+    <p class="sub">All 55 official trophies &mdash; roadmap to the Platinum, a missable warning, a guide for every trophy with its sources, and a tracker that saves in your browser. Fully offline: this page fetches nothing from the network.</p>
+  </div>
+  <div class="score" aria-label="progress">
+    <div class="big"><span id="earnedCount">0</span><span class="of">/55</span></div>
+    <div class="bar"><div id="barFill" style="width:0%"></div></div>
+    <p id="progressText">0 of 55 earned &middot; 0%</p>
+    <p class="grades" id="gradeCounts"></p>
+  </div>
 </header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
+
+<section class="alert" id="missableAlert">
+  <strong>&#9888; THE ONE MISSABLE TROPHY</strong>
+  <p><strong>Positive Mental Attitude</strong> &mdash; meditate at all 18 spots. One spot is on the balcony of Jason&rsquo;s house in <strong>Chapter 1</strong>, after the mission &ldquo;Down to Earth&rdquo;, when Lucia invites a morning meditation. Do it before Chapter 1 ends &mdash; miss it and the trophy is gone for that playthrough (there is no mission replay). The other 17 spots can be done in free roam after the story.</p>
+</section>
+
+<section class="roadmap" id="roadmap">
+  <h2>Roadmap to the Platinum &mdash; &ldquo;Vice Got a Price!&rdquo;</h2>
+  <p class="facts"><strong>Difficulty 4/10</strong> &middot; <strong>~200 hours</strong> &middot; <strong>1 playthrough</strong> &middot; <strong>0 online trophies</strong> &middot; Free roam after the story &middot; <strong>No mission replay</strong> &middot; <strong>15 manual save slots</strong> &middot; <strong>Cheats disable trophies</strong></p>
+  <ol class="timeline">
+    <li>
+      <h3>Stage 1 &mdash; Play the story, don&rsquo;t miss the balcony</h3>
+      <p>Finish Chapters 1&ndash;4 and the final mission (12 story trophies, incl. the Gold &ldquo;You Gotta Know When to Get Off&rdquo;). In Chapter 1, meditate on Jason&rsquo;s balcony when Lucia asks &mdash; the only missable step in the whole list. Keep a manual save in a spare slot before each chapter ends.</p>
+      <p class="yields">Yields: 12 story trophies + the missable meditation started.</p>
+    </li>
+    <li>
+      <h3>Stage 2 &mdash; Strangers, side jobs &amp; the map</h3>
+      <p>Clear the stranger strands (Andy, Kenton, Billy, Randy, Tyrone, Bret &mdash; 8 strands for the Silver &ldquo;Strangers &amp; Freaks&rdquo;), explore all 52 areas of Leonida, and start the big counters: WAiNK scans, card sets, vehicles, challenges, stunts.</p>
+      <p class="yields">Yields: side trophies, &ldquo;The Goodtime State&rdquo;, early collectibles.</p>
+    </li>
+    <li>
+      <h3>Stage 3 &mdash; Robberies, grinds &amp; 100%</h3>
+      <p>Bank vaults (5 of 8), gang operations (one per gang, 39 total), armored trucks, jewelry store, then the long counts for the Gold &ldquo;A Long Road&rdquo; (100%): 100 optional tasks, 39 gang operations, 22 bank jobs, 7 payday loan jobs, 8 bank vaults, 15 of 18 card sets, 100 WAiNK scans, 33 underwater discoveries, 100 of 125 Cocaine Flamingos, 42/42 Shooting Range gold, 42/42 drone time trials, 300 of 397 stunts, 70 of 80 challenges, 15/15 Bret target decks, 200 of 277 vehicles, 100 of 255 animals. Platinum pops last.</p>
+      <p class="yields">Yields: Silver robbery trophies, Gold &ldquo;A Long Road&rdquo;, then Platinum.</p>
+    </li>
+  </ol>
+  <p class="src">Roadmap facts: KeenGamer &mdash; <a href="https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/">keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies</a> &middot; GTA BOOM &mdash; <a href="https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f">gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f</a></p>
+</section>
+
+<section class="controls" aria-label="filters">
+  <input id="search" type="search" placeholder="Search trophy by name&hellip;" aria-label="Search trophy by name">
+  <label>Grade
+    <select id="grade">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label>Category
+    <select id="category">
+      <option value="all">All categories</option>
+      <option value="story">Story</option>
+      <option value="side">Side</option>
+      <option value="activity">Activity</option>
+      <option value="collectible">Collectible</option>
+      <option value="combat">Combat</option>
+      <option value="robbery">Robbery</option>
+      <option value="misc">Misc</option>
+    </select>
+  </label>
+  <label>Status
+    <select id="status">
+      <option value="all">Earned + locked</option>
+      <option value="earned">Earned only</option>
+      <option value="locked">Locked only</option>
+    </select>
+  </label>
+  <label class="check"><input id="missableOnly" type="checkbox"> Missable only</label>
+  <label class="check"><input id="hiddenOnly" type="checkbox"> Hidden only</label>
+  <label class="check spoiler"><input id="spoiler" type="checkbox" checked> Spoiler guard (hide story / hidden trophies until earned)</label>
+  <button id="export" type="button">Export progress (JSON)</button>
+  <label class="import">Import progress <input id="import" type="file" accept="application/json,.json"></label>
+  <button id="reset" type="button">Reset</button>
+</section>
+<p class="showing" id="showing"></p>
+
 <table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
+  <thead><tr><th class="c-earned">Earned</th><th>Trophy</th><th>Grade</th><th>Category</th><th>Guide (click a row for the full guide + sources)</th></tr></thead>
   <tbody id="rows"></tbody>
 </table>
+<div id="detail" class="detail" hidden></div>
+
+<footer>
+  <p>Official names, descriptions and grades are shown exactly as PlayStation publishes them. Guides are written in our own words for this entry; each one names its source. Sources: KeenGamer (<a href="https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/">keengamer.com</a>) and GTA BOOM (<a href="https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f">gtaboom.com</a>). No Rockstar logo, artwork or game screenshot is used anywhere in this guide. Progress is stored only in your browser (localStorage) and never leaves your device.</p>
+</footer>
 <script type="module" src="app.js"></script>
 </body>
 </html>
